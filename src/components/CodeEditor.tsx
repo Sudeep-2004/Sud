@@ -5,8 +5,7 @@ import { Brain, Code2, Sparkles, Play, RotateCcw } from "lucide-react";
 import axios from "axios";
 import { LANGUAGE_VERSIONS } from "./constants";
 
-// Load API key securely from environment variables
-const GEMINI_API_KEY = "AIzaSyDVdOw4NFTk51s7o1yYSQBQmrgZSjhE1Kw";
+const GEMINI_API_KEY = "";
 
 interface CodeEditorProps {
   language: Language;
